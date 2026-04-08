@@ -24,7 +24,7 @@ export default function AboutPage() {
             {/* NAVBAR - identique à Home */}
             <nav className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
                 <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-                    <a href="/" className="font-bold text-lg text-green-600">RohingyaEdu</a>
+                    <a href="/" className="font-bold text-lg text-green-600">RefuLearn</a>
 
                     {/* DESKTOP */}
                     <div className="hidden md:flex gap-6 items-center">
@@ -38,7 +38,7 @@ export default function AboutPage() {
                             whileHover={{ scale: 1.05 }}
                             className="flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-5 py-2 rounded-xl shadow"
                         >
-                            <FaDonate /> Donate
+                            <FaDonate /> Support a Student
                         </motion.button>
                     </div>
 
@@ -57,7 +57,7 @@ export default function AboutPage() {
                             <FaBookOpen /> Impact
                         </a>
                         <button className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-5 py-3 rounded-xl">
-                            <FaDonate /> Donate
+                            <FaDonate /> Support a Student
                         </button>
                     </div>
                 )}
@@ -66,11 +66,27 @@ export default function AboutPage() {
             {/* HERO */}
             <section className="relative max-w-6xl mx-auto px-6 pt-32 pb-20 grid md:grid-cols-2 gap-10 items-start">
                 <motion.div variants={fadeInUp} initial="hidden" animate="visible">
-                    <h1 className="text-4xl md:text-5xl font-bold leading-tight mt-4">
-                        About RohingyaEdu
+                    <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+                        About RefuLearn
                     </h1>
+
                     <p className="mt-4 text-lg text-gray-600">
-                        Our mission is to empower Rohingya students through education and opportunity. We believe every child deserves a chance to learn, grow, and succeed.
+                        RefuLearn is a digital platform dedicated to expanding access to education for refugee and underserved students around the world.
+                        We believe that education is one of the most powerful tools to break cycles of poverty, restore dignity, and create long-term opportunities.
+                    </p>
+
+                    <p className="mt-4 text-lg text-gray-600">
+                        Our mission is to connect students in need with individuals, organizations, and communities willing to support their educational journey.
+                        Whether through mentorship, resources, or future partnerships, we aim to build a transparent and ethical ecosystem where support is meaningful and impactful.
+                    </p>
+
+                    <p className="mt-4 text-lg text-gray-600">
+                        RefuLearn is built on the principles of transparency, inclusivity, and responsibility.
+                        We are committed to ensuring that every initiative shared on the platform is clear, verifiable, and aligned with real needs.
+                    </p>
+
+                    <p className="mt-4 text-lg text-gray-600">
+                        This platform is continuously evolving, with the vision of becoming a trusted bridge between opportunity and potential—because every student deserves a chance to learn, grow, and succeed.
                     </p>
                 </motion.div>
 
@@ -106,12 +122,12 @@ export default function AboutPage() {
                         {[
                             {
                                 title: "Our Mission",
-                                text: "Provide access to education and resources for Rohingya students, enabling them to achieve their full potential.",
+                                text: "Provide access to education and resources for RefuLearn students, enabling them to achieve their full potential.",
                                 alt: "Mission background"
                             },
                             {
                                 title: "Our Vision",
-                                text: "To create a world where every Rohingya child has the opportunity to learn, grow, and contribute positively to their community.",
+                                text: "To create a world where every RefuLearn child has the opportunity to learn, grow, and contribute positively to their community.",
                                 alt: "Vision background"
                             }
                         ].map((item, i) => (
@@ -203,20 +219,20 @@ export default function AboutPage() {
                 <div className="relative z-10 max-w-3xl mx-auto flex flex-col items-center gap-6">
                     <h2 className="text-4xl font-bold">Be the change in a student's life</h2>
                     <p className="text-green-100 text-lg">
-                        Your support helps Rohingya students achieve their dreams and build a brighter future.
+                        Your support helps RefuLearn students achieve their dreams and build a brighter future.
                     </p>
                     <motion.button
                         whileHover={{ scale: 1.05, backgroundColor: '#ffffff', color: '#16a34a' }}
                         className="bg-white text-green-600 px-6 py-3 rounded-xl font-semibold shadow-lg transition-colors"
                     >
-                        Donate Now
+                        Support a Student
                     </motion.button>
                 </div>
             </motion.section>
 
             {/* FOOTER - identique à Home */}
             <footer className="bg-white text-center py-8 text-gray-500 text-sm">
-                © 2026 Rohingya Education Support — All rights reserved
+                © 2026 RefuLearn Education Support — All rights reserved
             </footer>
 
         </main>

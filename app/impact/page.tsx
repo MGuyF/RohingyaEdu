@@ -12,7 +12,7 @@ const fadeInUp = {
 const categories = [
     {
         title: "Education",
-        description: "Access to learning opportunities for Rohingya students.",
+        description: "Access to learning opportunities for RefuLearn students.",
         images: ["/impact/impact-1.png", "/impact/impact-2.png", "/impact/impact-3.png"]
     },
     {
@@ -47,12 +47,12 @@ export default function ImpactPage() {
 
                 {/* NAV MINI */}
                 <div className="-mt-12 flex justify-between items-center">
-                    <a href="/" className="font-bold text-lg text-green-600">RohingyaEdu</a>
+                    <a href="/" className="font-bold text-lg text-green-600">RefuLearn</a>
                     <a
                         href="/donate"
                         className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-xl shadow hover:scale-105 transition"
                     >
-                        Donate
+                        Support a Student
                     </a>
                 </div>
 

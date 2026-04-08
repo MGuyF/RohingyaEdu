@@ -57,7 +57,7 @@ export default function DonatePage() {
                         href="/"
                         className="font-bold text-lg text-green-600"
                     >
-                        RohingyaEdu
+                        RefuLearn
                     </a>
                 </div>
 
@@ -84,7 +84,7 @@ export default function DonatePage() {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0, transition: { delay: 0.1, duration: 0.6 } }}
                         >
-                            Your donation helps Rohingya students access education and opportunities.
+                            Your donation helps RefuLearn students access education and opportunities.
                         </motion.p>
 
                         {/* Amount Selector */}

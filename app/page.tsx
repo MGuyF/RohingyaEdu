@@ -49,7 +49,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
 
-          <a href="/" className="font-bold text-lg text-green-600">RohingyaEdu</a>
+          <a href="/" className="font-bold text-lg text-green-600">RefuLearn</a>
 
           {/* DESKTOP */}
           <div className="hidden md:flex gap-6 items-center">
@@ -63,7 +63,7 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               className="flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-5 py-2 rounded-xl shadow"
             >
-              <FaDonate /> Donate
+              <FaDonate /> Support a Student
             </motion.button>
           </div>
 
@@ -86,7 +86,7 @@ export default function Home() {
               <FaBookOpen /> Impact
             </a>
             <button className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-5 py-3 rounded-xl">
-              <FaDonate /> Donate
+              <FaDonate /> Support a Student
             </button>
           </div>
         )}
@@ -100,13 +100,18 @@ export default function Home() {
           animate="visible"
         >
           <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
-            Supporting Rohingya students
+            Supporting refugee students worldwide
           </span>
 
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mt-4">
             <Typewriter
-              words={["Help Rohingya students build their future", "Give hope, change lives", "Support education today"]}
-              loop={0} // infinite loop = 0
+              words={[
+                "Help refugee students build their future",
+                "Education is a right, not a privilege",
+                "Empower lives through learning",
+                "Support students. Change the world"
+              ]}
+              loop={0}
               cursor
               cursorStyle="|"
               typeSpeed={70}
@@ -116,7 +121,8 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 text-lg text-gray-600">
-            Your contribution ensures access to education, hope, and opportunity.
+            RefuLearn connects people who care with students in need of educational support.
+            Our goal is to create a transparent and meaningful way to support learning opportunities for displaced and underserved communities around the world.
           </p>
 
           <div className="mt-6 flex gap-4">
@@ -124,7 +130,7 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-3 rounded-xl shadow"
             >
-              Donate Now
+              Support a Student
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.05, backgroundColor: '#f3f4f6' }}
@@ -340,14 +346,14 @@ export default function Home() {
             whileHover={{ scale: 1.05 }}
             className="mt-6 bg-white text-green-600 px-6 py-3 rounded-xl font-semibold"
           >
-            Donate Now
+             Support a Student
           </motion.button>
         </div>
       </motion.section>
 
       {/* FOOTER */}
       <footer className="bg-white text-center py-8 text-gray-500 text-sm">
-        © 2026 Rohingya Education Support — All rights reserved
+        © 2026 RefuLearn Education Support — All rights reserved
       </footer>
 
     </main>
