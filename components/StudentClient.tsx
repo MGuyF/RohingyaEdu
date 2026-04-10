@@ -65,7 +65,7 @@ export default function StudentClient({ student }: { student: Student }) {
               {student.story}
             </p>
 
-            <button className="mt-6 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-3 rounded-xl shadow-lg">
+            <button onClick={() => goTo("/donate")} className="mt-6 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-3 rounded-xl shadow-lg">
               Support {student.name}
             </button>
           </div>
