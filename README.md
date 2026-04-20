@@ -1,4 +1,4 @@
-# 🌍 RohingyaEdu — Donation Platform for Education
+# 🌍 RefuLearn — Donation Platform for Education
 
 A modern, high-impact web platform designed to support Rohingya students through donations and storytelling.
 
