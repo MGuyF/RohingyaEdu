@@ -64,4 +64,67 @@ The goal of this platform is to:
 
 ---
 
-## 📁 Project Structure
+## 🧠 Key Concepts Used
+
+- Dynamic Routing (Next.js App Router)
+- Reusable components architecture
+- Custom navigation function (SPA behavior)
+- Animated UI (Framer Motion)
+- Responsive layouts with Tailwind
+
+---
+
+## 🔮 Future Improvements
+
+- 💳 Payment Integration (Stripe / PayPal)
+- 🔥 Backend (Firebase / Supabase)
+- 🧾 Admin dashboard
+- 🖼️ Image storage (Cloudinary)
+- 📊 Real-time donation tracking
+- 🧠 CMS integration (Sanity / Notion API)
+
+---
+
+## ⚠️ Disclaimer
+
+This project is currently a **UI/UX and frontend demonstration**.  
+No real donation system is implemented yet.
+
+---
+
+## 🧑‍💻 Author
+
+**Your Name**
+- GitHub: (your link)
+- LinkedIn: (your link)
+
+---
+
+## 📌 Status
+
+🚧 In Progress — UI/UX Completed  
+🔜 Backend & Payment Integration coming next
+
+---
+
+## 💡 Inspiration
+
+This project is inspired by:
+- Modern NGO platforms
+- Dribbble UI trends
+- Minimal & impactful design systems
+
+---
+
+## ⭐ Support
+
+If you like this project:
+- Give it a ⭐ on GitHub
+- Share it on LinkedIn
+
+---
+
+## 📬 Contact
+
+Feel free to reach out for collaboration or opportunities!
+
